@@ -5,12 +5,16 @@ const Main = () => {
         <main className='main'>
             <div className='main__container'>
                 <div className='main__search main-search'>
-                    <div className='main-search__left'>
-                         <label className='main-search__left-description'>
+
+                    <label className='main-search__description'>
                             Искать тесты:
-                         <input className='main-search__left-label' type='text' name='search' placeholder='Например, математика'/>
-                        </label>
-                    </div>
+                        <input className='main-search__label' type='text' name='search' placeholder='Например, математика'/>
+                    </label>
+
+                    <p className='main-search__text'>
+                    Введите название теста или вставьте код чтобы присоедениться  
+                    </p>
+                    
                 </div>
                 <div className='main__list main-list'>
                     <ul className='main-list__items'>
