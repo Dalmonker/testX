@@ -1,0 +1,32 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;   
+        padding: 10px 195px;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__button {
+        display: inline-block;
+        padding: 3px 27px 9px 30px;
+        color: #fff;
+        font-size: 18px;
+        background: #6F1DF4;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        text-align: center;
+
+        &:first-child {
+            background: #E04D3B;
+
+        }
+    }
+}
