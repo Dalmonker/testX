@@ -1,6 +1,7 @@
 import Aside from "../aside/Aside"
 import Header from "../header/Header"
 import Main from "../main/Main"
+import './app.scss'
 
 const App = () => {
     return (
