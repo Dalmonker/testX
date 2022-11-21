@@ -15,7 +15,7 @@ const Main = () => {
                 </div>
                 <ul className='tests'>
                     <li className='tests__item'>
-                        <img className='tests__image' src='' alt="list-item"/>
+                        <img className='tests__image' src='../../assets/images/govno.png' alt="list-item"/>
                         <h3 className='tests__title'>Есть ли у вас навыки управления командой?</h3>
                     </li>
                 </ul>
