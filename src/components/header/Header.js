@@ -1,11 +1,11 @@
 import './header.scss'
 
-const Header = () => {
+const Header = ({children}) => {
     return (
         <header className='header'>
             <div className='header__container'>
                 <div className='header__logo'>
-                    x
+                    {children}
                 </div>
                 <div className='header__buttons'>
                     <button className='header__button'>Войти</button>

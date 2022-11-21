@@ -3,27 +3,22 @@ import './main.scss'
 const Main = () => {
     return (
         <main className='main'>
-            <div className='main__container'>
                 <div className='main__search main-search'>
-
-                    <label className='main-search__description'>
+                        <label className='main-search__label'>
                             Искать тесты:
-                        <input className='main-search__label' type='text' name='search' placeholder='Например, математика'/>
-                    </label>
+                        <input className='main-search__input' type='text' name='search' placeholder='Например, математика'/>
+                        </label>
 
-                    <p className='main-search__text'>
-                    Введите название теста или вставьте код чтобы присоедениться  
-                    </p>
-                    
+                         <p className='main-search__description'>
+                        Введите название теста или вставьте код чтобы присоедениться  
+                        </p>
                 </div>
-                <div className='main__list main-list'>
-                    <ul className='main-list__items'>
-                        <li className='main-list_item'>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <ul className='tests'>
+                    <li className='tests__item'>
+                        <img className='tests__image' src='' alt="list-item"/>
+                        <h3 className='tests__title'>Есть ли у вас навыки управления командой?</h3>
+                    </li>
+                </ul>
         </main>
     )
 }
