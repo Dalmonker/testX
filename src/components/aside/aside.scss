@@ -10,6 +10,10 @@
     }
     &__item {
         max-width: 178px;
+        display: flex;
+        a {
+            padding: 0 0 0 13;
+        }
         &:not(:last-child) {
             margin-bottom: 25px;
         }
@@ -20,8 +24,4 @@
         letter-spacing: 0.01em;       
         color: #000;
     }
-}
-
-.aside__link svg {
-    padding-right: 13px;
 }
